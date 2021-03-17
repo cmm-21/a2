@@ -185,6 +185,6 @@ You have a full freedom to choose the terrain map you want to use: you can just 
 
 Congratulations! You can now control the legged robot! Hooray! 
 
-Can we use our kinematic walking controller to a real robot? Well... unfortunately it's not very easy to use our kinematic controller for a real robot. In fact, working with a real robot is a completely different story because we need to take into account **Dynamics** of the robot. But, you know what? We have implemented fundamental building blocks of legged locomotion control. We can extend this idea to control a real robot someday! 
+Can we use our kinematic walking controller to a real robot? Well... unfortunately it's not very easy. In fact, working with a real robot is a completely different story because we need to take into account **Dynamics** of the robot. But, you know what? We have implemented fundamental building blocks of legged locomotion control. We can extend this idea to control a real robot someday! 
 
 By the way, can you make a guess why using kinematic controller for a real legged robot doesn't really work well in practice? If you are interested in, please leave your ideas on the github issue.
