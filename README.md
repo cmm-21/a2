@@ -1,5 +1,7 @@
 # Assignment 2 - Kinematic walking controller
 
+**Hand-in:** Apr. 2, 2021, 18:00 CEST
+
 In this assignment, we implement a kinematic walking controller for a legged robot! 
 
 Let's see the figure below. 
