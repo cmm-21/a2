@@ -100,6 +100,14 @@ For now, we will use finite-difference (FD) for computing Jacobian. The idea of 
 
 Now, it's time to implement a IK solver. Choose one of optimization methods we learned in the previous lecture: gradient-descent, Neton's, or Gauss-Newton. 
 
+We solve four independent IK problems (one for each leg.) Let's say **q**<sup>desired,i</sup> is a solution for ith feet.
+
+![equation: ik for ith foot](imgs/eq-iki.png)
+
+We can just solve each IK problem one by one and sum up the solutions to get a full desired generalized coordinates **q**<sup>desired</sup>.
+
+![equation: full desired generalized coordinate](imgs/eq-iksum.png)
+
 **Code:** 
 - Files: 
     - `src/libs/kinematics/IK_solver.h`
