@@ -37,7 +37,7 @@ TestResult test_4_AnalyticJacobian() {
 
         // compare analytic jacobian with estimated one
         for (uint r = 0; r < dpdq_analytic.rows(); r++) {
-            for (uint c = 0; c < dpdq_analytic.rows(); c++) {
+            for (uint c = 0; c < dpdq_analytic.cols(); c++) {
                 res += SAME(dpdq_analytic(r, c), dpdq_estimated(r, c), 1e-4);
             }
         }
